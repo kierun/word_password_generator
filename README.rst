@@ -28,7 +28,14 @@ Generates word passwords from random common words
 Features
 --------
 
-* TODO
+ * Returns a four, five, and six word passwords, where each word is no less
+   than five characters long.
+
+Clearly, this is based off `xkcd password strength` comic
+
+.. image:: docs/password_strength.png
+
+.. _xkcd password strength: https://www.xkcd.com/936/
 
 Credits
 ---------
