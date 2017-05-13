@@ -3,7 +3,7 @@
 
 # Apparently this should open the file, stream out the contents as asked for then closes the file?
 # Tried just loading the whole file into memory, but it crapped out, so we'll do this
-with open('F:\Code\Python\Password_Gen\linux.words') as datafile: #hard-coded right now while I work things out
+with open('F:\Code\Python\Password_Gen\wordlist.10000.txt') as datafile: #hard-coded right now while I work things out
     words = (word.rstrip('\r\n') for word in datafile)
     for word in words:
         if(len(word) <=6 and len(word) >= 4):
